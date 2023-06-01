@@ -20,4 +20,4 @@
  
  Webサーバーといえば、OSはLinuxが事実上の標準。そして作業で使うPCと言えば事実上の標準はやはり「Windows」ということで、近年のWindowsマシンに標準装備されている「WSL(Winddows Subsystem for Linux 2」を採用することにします。  
  Linuxのディスリビューションは、これまたLinuxの中ではトップシェアを誇り、wls2の標準にもなっている「ubuntu」にします。
- 
+ ![2022年ディストリビューションのシェア](https://github.com/yuasys/scratch001/blob/main/images/fig2023-06-01-2.png?raw=true)
