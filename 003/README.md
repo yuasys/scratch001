@@ -5,4 +5,6 @@
 #### &emsp;&emsp;[◀️前のstepへ](https://github.com/yuasys/scratch001/tree/main/002#readme)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[次のstepへ▶️](https://github.com/yuasys/scratch001/tree/main/004#readme)
 ---
 
+🐯　ここにはまだ記事がありません　🐯
+
 ## 目標
