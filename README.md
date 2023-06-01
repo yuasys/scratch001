@@ -26,7 +26,7 @@
 
 |NO|反復項目|英語表記|略語案|
 |----|----|----|----|
-|1|要件定義|requirements definition|RD|
+|1|あるべき姿|What it should be|W|
 |2|設計|design|D|
 |3|実装|implementation|I|
 |4|テスト|esting|T|
