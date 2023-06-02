@@ -36,4 +36,4 @@
 |4|テスト|esting|T|再現性の確保する|
 |5|見直し|見直し|R|次の反復に反映してつなげる|
 
-[参考になりそうなサイト](https://www.galk-jp.com/blog/agile-development-process/)
+[参考になりそうなサイト](https://github.com/yuasys/scratch001/blob/main/images/fig2023-06-02-2.png?raw=true)
