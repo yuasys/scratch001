@@ -58,4 +58,4 @@
  <img src="https://github.com/yuasys/scratch001/blob/main/images/fig2023-06-01-2.png?raw=true" alt=""/>
 </div>
 
- ![2022年ディストリビューションのシェア](https://github.com/yuasys/scratch001/blob/main/images/fig2023-06-01-2.png?raw=true)
+ ![2022年ディストリビューションのシェア](https://github.com/yuasys/scratch001/blob/main/images/fig2023-06-02-2.png?raw=true)
