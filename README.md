@@ -31,9 +31,9 @@
 |NO|反復項目|英語表記|略語案|説明/補足|
 |----|----|----|----|----|
 |1|あるべき姿|What it should be|W|「なぜ」も含める|
-|2|設計|design|D|実現の手順方法を示す|
-|3|実装|implementation|I|現実化する|
-|4|テスト|esting|T|再現性の確保する|
-|5|見直し|見直し|R|次の反復に反映してつなげる|
+|2|設計|Design|D|実現の手順方法を示す|
+|3|実装|Implementation|I|現実化する|
+|4|テスト|Testing|T|再現性の確保する|
+|5|見直し|Review|R|次の反復に反映してつなげる|
 
 [参考になりそうなサイト](https://github.com/yuasys/scratch001/blob/main/images/fig2023-06-02-2.png?raw=true)
