@@ -64,7 +64,7 @@
 #### (1) 学習教材Udemyコースの新規追加
 
 
-> 📌[**講座名 【PHP8.2対応】現役Webエンジニアが教えるPHP,MySQL,dockerを使用したフルスクラッチ開発**](https://www.udemy.com/course/webphpmysqldocker/)
+> 📌[**講座名 【PHP8.2対応】現役Webエンジニアが教えるPHP,MySQL,dockerを使用したフルスクラッチ開発**](https://www.udemy.com/course/webphpmysqldocker/)  
 > 📌購入日 2023-06-07　学習期間 2023-06-07～
 > 📌[学習記録](https://hackmd.io/XelXhAZfQTKV7J-MaY1XAA?view)
 
