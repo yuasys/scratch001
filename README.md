@@ -36,4 +36,3 @@
 |4|テスト|Testing|T|再現性の確保する|
 |5|見直し|Review|R|次の反復に反映してつなげる|
 
-[参考になりそうなサイト](https://github.com/yuasys/scratch001/blob/main/images/fig2023-06-02-2.png?raw=true)
