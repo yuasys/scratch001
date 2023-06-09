@@ -1,4 +1,4 @@
-version: "3"  # v1.27.0 からはオプション
+version:  "3.7" # v1.27.0 からはオプション
 services:
   my-apache-php-app:
     image: php:7.2-apache
