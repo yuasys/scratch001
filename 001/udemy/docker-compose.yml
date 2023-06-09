@@ -1,16 +1,10 @@
 version: "3.9"  # v1.27.0 からはオプション
 services:
-  web:
-    build: .
+  my-apache-php-app:
+    image: php:7.2-apach
     ports:
-      - "8000:5000"
+      - "80:80"
     volumes:
-      - .:/code
-      - logvolume01:/var/log
-    links:
-      - redis
-  redis:
-    image: redis
-volumes:
-  logvolume01: {}
-  
+      - .:/var/www/html
+
+      
