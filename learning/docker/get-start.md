@@ -94,6 +94,14 @@ Hello from Docker!
 その他の例やアイデアについては、以下をご覧ください：
  https://docs.docker.com/get-started/
 
+## Dockerの基本操作を覚える
+
+https://www.youtube.com/watch?v=lZD1MIHwMBY&t=3214s
+
+<b>アプリ作成からコンテナ起動までの基本的な流れ</b>
+
+![](../../images/アプリ作成コンテナ起動の流れ.png)
+
 
 
 
