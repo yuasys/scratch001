@@ -145,3 +145,17 @@ end
 
 server.start
 ```
+
+#### （３）Dockerfileをつくる
+
+同じアプリルート（作業場）にDockerfileファイルを作る。  
+<b>Dockerfileとは、イメージの雛形（設計図）となるもの</b>
+
+```yml
+FROM ruby:2.7
+
+RUN mkdir /var/www
+COPY main.rb /var/www
+
+CMD [ "ruby", "/var/www/main.rb" ]
+```
