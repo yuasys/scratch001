@@ -73,7 +73,7 @@ php           7.2-apache   c61d277263e1   2 years ago   410MB
 Digest: sha256:fc6cf906cbfa013e80938cdf0bb199fbdbb86d6e3e013783e5a766f50f5dbce0
 ステータス hello-world:latestの新しいイメージがダウンロードされました。
 
-Dockerからこんにちは！
+Hello from Docker!
 このメッセージは、インストールが正しく動作しているように見えることを示します。
 
 このメッセージを生成するために、Dockerは以下のステップを踏んでいます：
@@ -86,7 +86,7 @@ Dockerからこんにちは！
     に送信します。
 
 もっと野心的なことを試すには、次のようにしてUbuntuコンテナを実行します：
- ドッカーラン -it ubuntu bash
+  ```$ docker run -it ubuntu bash```
 
 無料のDocker IDで、イメージの共有、ワークフローの自動化など、さまざまなことができます：
  https://hub.docker.com/
@@ -94,7 +94,7 @@ Dockerからこんにちは！
 その他の例やアイデアについては、以下をご覧ください：
  https://docs.docker.com/get-started/
 
- 
+
 
 
 
