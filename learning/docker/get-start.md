@@ -171,7 +171,7 @@ $ docker image build -t sample/webric:latest .
 docker image build [オプション] [Dockerfileの場所を指定]
 
 イメージにタグ名をつけるオプション  
--t <タグ名> : <バージョン名>
+-t <リポジトリ名> : <タグ名>
 
 Dockerfileの場所を指定
 . : カレント（現在居る場所＝ドット"."で表現する）
