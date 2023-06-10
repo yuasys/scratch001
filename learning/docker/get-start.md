@@ -107,3 +107,34 @@ https://www.youtube.com/watch?v=lZD1MIHwMBY&t=3214s
 
 
 
+
+
+
+
+上の図の順番に沿って以下に演習をおこなう
+
+### 1. アプリケーションのコードを用意する
+
+ここでは、「rubyでWebサーバー作り、トップページにアクセスされたら”hello"と返す」アプリとします。
+
+#### (1) 作業用ディレクトリを作る
+
+ここでは作業の場所はlearning/dockerとういうディレクトリとする。
+
+#### (2) main.rbというアプリコードファイルを作る
+
+```ruby=
+require 'webrick'
+
+server = WEBric::HTTPSerer.new(
+  DocumentRoot: './',
+  BindAddres: '0.0.0.0',
+  Port: 8000
+)
+
+server.mount_proc('/') do |req, res|
+  res.body = 'hello'
+end
+
+server.start
+```
