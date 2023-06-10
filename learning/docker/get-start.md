@@ -176,3 +176,21 @@ docker image build [オプション] [Dockerfileの場所を指定]
 Dockerfileの場所を指定
 . : カレント（現在居る場所＝ドット"."で表現する）
 
+#### （４）docker image ls でイメージを確認
+
+イメージが生成されたかどうかを確認するには```$ docker image ls```コマンドを打つ
+
+---
+
+💓補足説明（dockerコマンドについて）
+
+[日本語公式サイト](https://docs.docker.jp/engine/reference/commandline/index.html) &emsp;[英語版公式ドキュメント](https://docs.docker.com/engine/reference/commandline/cli/)
+
+- Common Commands:Dockerの基本的なコマンドで、イメージやコンテナの操作などを行うことができます。例えば、docker run, docker pull, docker ps, docker rmなどがあります
+- Management Commands:Dockerの管理用コマンドで、ネットワークやボリューム、スワームなどのリソースを管理することができます。例えば、docker network, docker volume, docker swarmなどがあります
+- Swarm Commands:Dockerのスワーム用コマンドで、クラスター内のノードやサービスを管理することができます。例えば、docker node, docker service, docker stackなどがあります
+- Commands:Dockerのサブコマンドで、各管理コマンドに対して詳細な操作を行うことができます。例えば、docker network create, docker volume inspect, docker swarm initなどがあります
+- Global Options:Dockerのグローバルオプションで、Docker CLIの動作を設定することができます。例えば、--config, --debug, --tlsなどがあります
+  
+---
+
