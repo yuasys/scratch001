@@ -148,6 +148,8 @@ server.start
 
 #### （３）Dockerfileをつくる
 
+![](../../images/Dockerfile.png)
+
 同じアプリルート（作業場）にDockerfileファイルを作る。  
 <b>Dockerfileとは、イメージの雛形（設計図）となるもの</b>
 
