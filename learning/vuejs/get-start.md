@@ -17,3 +17,5 @@ Reactiveなアプリの実例:<b>[Front-end Toole](https://front-end-tools.com/g
 ## Lesson 02 Vue js3の [読み込みと、基本的な書き方](https://youtu.be/H0dMGVZAkCw)
 
 [公式サイト（日本語版）](https://ja.vuejs.org/)
+
+## Lesson 03 Vue js3の [ディレクティブとデータバインディング](https://youtu.be/uWPbq_x3F-g)
