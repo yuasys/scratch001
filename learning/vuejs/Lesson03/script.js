@@ -9,8 +9,13 @@
 const app = ({
   data() {
     return {
-      text: 'Hello Vue!',
+      text: '<a href="">Hello Vue!</a>',
+      link: 'https://google.co.jp'
     }
+  },
+  //vue描画完了直後に実行
+  mounted() {
+    this.link = 'https://ja.vuejs.org/guide/essentials/class-and-style.html'
   }
 })
 
