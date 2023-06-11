@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vue Lesson03</title>
-  
+
   <script src="https://unpkg.com/vue@3.2.47/dist/vue.global.js"></script>
   <script src="script.js" defer></script>
 </head>
 <body>
   <div id="app">
-    {{ text }}
+    <p>{{ text }}</p>
+    <p v-html="text"></p>
+    <a v-bind:href="link">リンク</a>
   </div>
 </body>
 </html>
