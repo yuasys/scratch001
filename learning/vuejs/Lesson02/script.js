@@ -1,6 +1,6 @@
 // Vueの読み込みと、基本的な書き方について
 const app = ({
-  data: function() {
+  data() {
     return {
       text: 'Hello Vue! Hi',
       a: 1,
@@ -9,6 +9,14 @@ const app = ({
         name: 'front-end',
       }
     }
+  },
+
+  // ライフサイクルメソッドの一つ
+  mounted() {
+    function test() {
+      console.log('test-test')
+    }
+      test()
   }
 })
 
