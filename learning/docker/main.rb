@@ -8,7 +8,7 @@ server = WEBrick::HTTPServer.new(
 
 
 server.mount_proc('/') do |req, res|
-  res.body = 'hello'
+  res.body = 'hello from main.rb'
 end
 
 server.start
