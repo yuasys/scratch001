@@ -11,8 +11,13 @@
 <body>
   <div id="app">
     <p>{{ text }}</p>
+    <hr>
     <p v-html="text"></p>
+    <hr>
     <a v-bind:href="link">リンク</a>
+    <hr>
+    <!-- v-bindの省略形 -->
+    <a :href="link">リンク(v-bindの省略形)</a>
   </div>
 </body>
 </html>
