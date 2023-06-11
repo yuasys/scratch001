@@ -1,6 +1,6 @@
 # Docker超入門講座 合併版 | ゼロから実践する4時間のフルコース
 
-> [学習教材動画](https://youtu.be/lZD1MIHwMBY)  
+> [学習教材動画](https://youtu.be/lZD1MIHwMBY)&emsp; 著作者：山浦 清透（やまうらきよと）氏  
 > [00:00:0](https://www.youtube.com/watch?v=lZD1MIHwMBY&t=0s)　オープニング & Dockerって何？  
 > [00:04:16](https://www.youtube.com/watch?v=lZD1MIHwMBY&t=256s)　環境構築 for Mac  
 > [00:14:27](https://www.youtube.com/watch?v=lZD1MIHwMBY&t=867s)　環境構築 for Windows  
