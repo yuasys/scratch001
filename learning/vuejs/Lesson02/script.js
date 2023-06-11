@@ -13,11 +13,9 @@ const app = ({
 
   // ライフサイクルメソッドの一つ
   mounted() {
-    function test() {
-      console.log('test-test')
-    }
-      test()
+    console.log(this.text)
   }
+
 })
 
 Vue.createApp(app).mount('#app')
