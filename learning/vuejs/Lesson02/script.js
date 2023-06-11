@@ -2,7 +2,7 @@
 const app = ({
   data: function() {
     return {
-      text: 'Hello Vue!',
+      text: 'Hello Vue! Hi',
       a: 1,
       b: ['a', 'b'],
       c: {
