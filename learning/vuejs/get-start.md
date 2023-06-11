@@ -19,3 +19,7 @@ Reactiveなアプリの実例:<b>[Front-end Toole](https://front-end-tools.com/g
 [公式サイト（日本語版）](https://ja.vuejs.org/)
 
 ## Lesson 03 Vue js3の [ディレクティブとデータバインディング](https://youtu.be/uWPbq_x3F-g)
+
+[公式サイト（日本語版）](https://ja.vuejs.org/guide/essentials/class-and-style.html)
+
+## Lesson 
