@@ -6,7 +6,9 @@
 ---
 ## 小さなステップを数多く重ねる
 
-## 哲学を輪の中心に
+## 哲学を輪の中心に  
+
+どのようにやるかの前に、なぜやるかを深く考えてみよう!  
 
 ![哲学](https://raw.githubusercontent.com/yuasys/scratch001/560d8b798695c8d5e09357fc44b04878be9644c8/images/Tetsugaku.svg)
 
