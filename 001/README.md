@@ -1,9 +1,12 @@
-###### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;step001
+# Step001 ローカル開発環境を熟考する
 
- ---
-&emsp;&emsp;📌<b>scratch</b>とは「擦る（こする）」。主題とその周辺を丁寧にこすり合わせましょう📌
-#### &emsp;&emsp;[◀️前のstepへ](https://github.com/yuasys/scratch001/tree/main#readme)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[次のstepへ▶️](https://github.com/yuasys/scratch001/tree/main/002#readme)
----
+<hr/>
+
+&emsp;&emsp;📌<b>scratch</b>とは「擦る（こする）」。主題とその周辺を擦り合わせましょう📌  
+
+&emsp;&emsp;[◀️前のstepへ](https://github.com/yuasys/scratch001/tree/main#readme)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[次のstepへ▶️](https://github.com/yuasys/scratch001/tree/main/002#readme)
+
+<hr/>
 
 ## 目標
 
@@ -16,12 +19,12 @@
 
 2. 目標の手近さ（実芸性）
     - 過去に多数のローカル開発環境を作成した実績があり、最初の段階でこの目標に進むことは現実的
-4. 目標は検証可能でなければならない
+3. 目標は検証可能でなければならない
     - ローカル環境開発の方法を複数取り上げて実装して実際に作業してみて、体感を得ることにより検証できる
-6. 検証結果を評価する手順
+4. 検証結果を評価する手順
     - 実装の容易さ、体感の良さ（実感）　※運用効率の評価はある程度活動を継続したのちに測定できると考えられる
 
- ## 実践
+## 実践
   
 ### 1. 適切なローカル開発環境の仕様と、その選定理由
 
@@ -34,10 +37,10 @@
  |5|開発作業用の必須アプリ|エディタ VSCode<br>DB GUIツール heidiSQL|事実上の標準ツールであるから<br>日本語化の完成度が高く・高機能（特に<br>ストアドプロシージャ管理機能）|
 |6|実装技術の選択|Docker<br>~~MAMPPまたはXAMPP~~<br>|手順をコード化できる<br>~~一般的に多く使われている~~|
 
-📌ここまで進めておきながら、何ですが、近年では当たり前になっている<b>「Docker技術を取り入れた開発環境」の視点が欠けていることに気づきました</b>。もっと見直しが必要でした。[参考記事リンク](https://github.com/yuasys/chatty-journal/blob/main/2023/06/2023-06-02.md#%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E6%89%8B%E9%A0%86%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E5%8C%96%E3%81%AF%E9%87%8D%E8%A6%81%E3%81%AA%E6%84%8F%E5%91%B3%E3%81%8C%E3%81%82%E3%82%8B)  
+📌ここまで進めておきながら何ですが、近年では当たり前になっている<b>「Docker技術を取り入れた開発環境」の視点が欠けていることに気づきました</b>。もっと見直しが必要でした。[参考記事リンク](https://github.com/yuasys/chatty-journal/blob/main/2023/06/2023-06-02.md#%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E6%89%8B%E9%A0%86%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E5%8C%96%E3%81%AF%E9%87%8D%E8%A6%81%E3%81%AA%E6%84%8F%E5%91%B3%E3%81%8C%E3%81%82%E3%82%8B)  
 📌見直して結果項目No6を追加しました。
 
- ### ２．選定か外した仕様と、その理由
+### ２．選定か外した仕様と、その理由
 
 📌書きかけです
   |No|項目名|敢えて外したよくある仕様|外した理由|
@@ -47,22 +50,20 @@
  |3|OS|Mac OS または Windows|Serverに適さない|
  |4|開発環境に必須のアプリ|MEAN（MongoDB、<br>Express、AngularJS、<br>Node.js）|国内のレンタル共用型サーバーで<br>対応しているものがない|
  |5|開発作業用の必須アプリ|MySQL Wordbench|使用感が悪すぎる|
- 
-
 
 #### 考えたこと
+
  「標準」の哲学で考えて見ました。  
- その理由は、「標準」こそトータルの効率を高める柱に一つだからです。。
- 
- Webサーバーといえば、OSはLinuxが事実上の標準。そして作業で使うPCと言えば事実上の標準はやはり「Windows」ということで、近年のWindowsマシンに標準装備されている「WSL(Winddows Subsystem for Linux 2」を採用することにします。  
- Linuxのディスリビューションは、これまたLinuxの中ではトップシェアを誇り、wls2の標準にもなっている「ubuntu」にします。
- 
+ その理由は、「標準」こそトータルの効率を高める柱に一つだからです。  
+
+  Webサーバーといえば、OSはLinuxが事実上の標準。そして作業で使うPCと言えば事実上の標準はやはり「Windows」ということで、近年のWindowsマシンに標準装備されている「WSL(Winddows Subsystem for Linux 2」を採用することにします。  
+ Linuxのディスリビューションは、これまたLinuxの中ではトップシェアを誇り、wls2の標準にもなっている「ubuntu」にします。  
+
  ![2022年ディストリビューションのシェア](https://github.com/yuasys/scratch001/blob/main/images/fig2023-06-02-3.png?raw=true)
 
 ### ３．「ローカル開発環境のあるべき姿」から学びの絞り込みへ
 
 #### (1) 学習教材Udemyコースの新規追加
-
 
 > 📌[**講座名 【PHP8.2対応】現役Webエンジニアが教えるPHP,MySQL,dockerを使用したフルスクラッチ開発**](https://www.udemy.com/course/webphpmysqldocker/)  
 > 📌購入日 2023-06-07　学習期間 2023-06-07～  
@@ -70,6 +71,6 @@
 
 #### (2) Dockerの基礎を再学習
 
-※下の絵をクリックすると動画教材にジャンプします。
-[![](https://hackmd.io/_uploads/SyMLskkwn.png)](https://youtu.be/0SkmKxGxCuc)
+※下の絵をクリックすると動画教材にジャンプします。  
 
+[![動画教材](https://hackmd.io/_uploads/SyMLskkwn.png)](https://youtu.be/0SkmKxGxCuc)
