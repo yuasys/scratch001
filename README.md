@@ -1,9 +1,9 @@
 # 「 Yuasys Way - scratch - 」の哲学と原理原則
 
----
+<hr>
 &emsp;&emsp;📌<b>scratch</b>とは「擦る（こする）」。主題とその周辺を丁寧にこすり合わせましょう📌
-#### &emsp;&emsp;[◀️前のstepへ](https://github.com/yuasys/scratch001/tree/main#readme)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[次のstepへ▶️](https://github.com/yuasys/scratch001/tree/main/001#readme)
----
+### &emsp;&emsp;[◀️前のstepへ](https://github.com/yuasys/scratch001/tree/main#readme)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[次のstepへ▶️](https://github.com/yuasys/scratch001/tree/main/001#readme)  
+<hr/>
 ## 小さなステップを数多く重ねる
 
 ## 哲学を輪の中心に  
@@ -20,9 +20,9 @@
 
 ## あなたに喜んでもらいたから
 
----
-参考
----
+<hr/>
+## 参考
+<nr/>
 
 ## アジャイル開発における「反復」について
 
@@ -37,4 +37,3 @@
 |3|実装|Implementation|I|現実化する|
 |4|テスト|Testing|T|再現性の確保する|
 |5|見直し|Review|R|次の反復に反映してつなげる|
-
